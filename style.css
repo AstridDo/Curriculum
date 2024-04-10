@@ -23,11 +23,10 @@
   font-family: Trebuchet MS;
   background-color: #585858;
   display: flex;
-
+  justify-content: center;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 150px;
 }
 
 #header-text
