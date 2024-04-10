@@ -1,0 +1,132 @@
+#container
+{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+#parent
+{
+  display: flex;
+}
+#narrow
+{
+  width: 300px;
+  background: #F2F2F2;
+}
+#wide	
+{
+  flex: 1;
+  background: white;
+}
+
+#header
+{
+  font-family: Trebuchet MS;
+  background-color: #585858;
+  display: flex;
+
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+}
+
+#header-text
+{
+  text-align: center;
+	
+}
+
+#wide-container
+{
+  padding-top: 30px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  font-family: Tahoma, sans-serif;
+}
+
+#narrow-container
+{
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 15px;
+  font-family: Tahoma,  sans-serif;
+}
+
+#rounded-image
+{
+  border-radius: 100%;
+  margin-right: 250px;
+}
+
+.nombre
+{
+  font-size: 50px;
+  color: white;
+}
+.puesto
+{
+  font-size: 30px;
+  font-weight: lighter;
+  color: #a0a0a0;
+}
+.year
+{
+  color: grey;
+}
+.city
+{
+  font-style: italic;
+}
+h1
+{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+h2
+{
+  margin-top: 20px;
+  font-size: 22px;
+  margin-bottom: 3px;
+ 
+}
+h3
+{
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
+
+hr
+{
+  height: 2px;
+  display: block;
+  background-color: black;
+  border-bottom: 0.5px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  margin-bottom: 20px;
+}
+
+p
+{
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+li
+{
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+body
+{
+  background-color: Grey;
+}
